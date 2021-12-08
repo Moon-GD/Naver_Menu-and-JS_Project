@@ -3,3 +3,13 @@
     white-space: nowrap;  // text가 넘어가도 수평하게 쭉 넘어가도록 설정
     overflow: hidden;  // text가 범위를 벗어나면 안 보이게 가림
 }
+
+@mixin multi-ellipsis($font-size, $line-height, $lines) {
+    font-size: $font-size;
+    line-height: $line-height;
+    max-height: $lines * $line-height;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: $lines;
+    -webkit-box-orient: vertical;  /* autoprefixer: off */
+}
