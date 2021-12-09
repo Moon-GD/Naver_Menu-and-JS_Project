@@ -7,7 +7,7 @@
     <title>제로베이스 마크업</title>
     <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
-<body>
+<body class="scroll-off">
     <div class="container">
         <!-- 고정헤더영역 -->
         <header class="header-area">
@@ -146,9 +146,88 @@
                 </div>
             </div>
             <!-- // 주문자 사진 -->
+
+            <!-- 주문자 리뷰 -->
+            <div class="orderer-review-area">
+                <div class="common-ineer">
+                    <div class="title">주문자 리뷰 <span class="num">999</span></div>
+                    <ul class="review-list">
+                        <li class="review-item">
+                            <div class="review-star">
+                                <span class="ico-star-group">
+                                    <span class="ico-star-group-fill" style="width: 90%;"></span>
+                                </span>
+                                <span class="point">4.5</span>
+                            </div>
+                            <p class="review-text">리뷰 영역 리뷰 영역 리뷰 영역 리뷰 영역 리뷰 영역 리뷰 영역 리뷰 영역 리뷰 영역</p>
+                            <div class="review-info">
+                                <span class="review-nickname">zero****</span>
+                                <span class="review-date">2021. 12. 09 주문</span>
+                            </div>
+                        </li>
+
+                        <li class="review-item">
+                            <div class="review-star">
+                                <span class="ico-star-group">
+                                    <span class="ico-star-group-fill" style="width: 80%;"></span>
+                                </span>
+                                <span class="point">4.0</span>
+                            </div>
+                            <p class="review-text">리뷰 영역 리뷰 영역 리뷰 영역 리뷰 영역 리뷰 영역 리뷰 영역 리뷰 영역 리뷰 영역</p>
+                            <div class="review-info">
+                                <span class="review-nickname">zero****</span>
+                                <span class="review-date">2021. 12. 09 주문</span>
+                            </div>
+                        </li>
+                        <li class="review-item">
+                            <div class="review-star">
+                                <span class="ico-star-group">
+                                    <span class="ico-star-group-fill" style="width:70%;"></span>
+                                </span>
+                                <span class="point">3.5</span>
+                            </div>
+                            <p class="review-text">리뷰 영역 리뷰 영역 리뷰 영역 리뷰 영역 리뷰 영역 리뷰 영역 리뷰 영역 리뷰 영역</p>
+                            <div class="review-info">
+                                <span class="review-nickname">zero****</span>
+                                <span class="review-date">2021. 12. 09 주문</span>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <button class="btn-more">더보기</button>
+                </div>
+            </div>
+            <!-- // 주문자 리뷰 -->
         </div>
 
         <!-- // 주문자 리뷰 영역 -->
+
+        <!-- 옵션 팝업 영역 -->
+        <div class="option-popup-area">
+            <div class="dimmed-layer light"></div>
+            <div class="menu-option-popup">
+                <svg class="content-top-pattern" width="100%" height="100%">
+                    <defs>
+                        <pattern id="pattern-triangle" x="0" y="0" width="10" height="11" patternUnits="userSpaceOnUse">
+                            <polygon points="5 5, 10 10, 10 11, 0 11, 0 10"></polygon>
+                        </pattern>
+                    </defs>
+                    <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern-triangle)"></rect>
+                </svg>
+
+                <div class="content-top">
+                    top
+                </div>
+                <div class="content-body">
+                    <div style="height: 1000px;"></div>
+                </div>
+
+                <div class="content bottom">
+                    <button>button</button>
+                </div>
+            </div>
+        </div>
+        <!-- // 옵션 팝업 영역 -->
     </div>
 </body>
 </html>
