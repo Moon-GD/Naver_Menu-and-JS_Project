@@ -30,7 +30,7 @@
                             </svg>
                         </p>
                         <p class="desc">가지고 가실 수 있게 준비됩니다.</p>
-                        <p class="count">담은 메뉴 : 3개</p>
+                        <p class="count">담은 메뉴: 3개</p>
                     </div>
 
                     <div class="order-content-body">
@@ -96,7 +96,7 @@
                         </ul>
 
                         <div class="order-total">
-                            <span class="total-txt">총 주문 금액</span>
+                            <span class="total-txt">총 주문금액</span>
                             <span class="total-price">29,997원</span>
                         </div>
                         <!-- // 담은 메뉴가 있음 -->
@@ -106,8 +106,58 @@
                 <a href="#" class="btn-menu-add"><i class="ico-add"></i>메뉴추가</a>
             </div>
             <!-- // 주문서 메뉴 -->
-        </div>
 
+            <!-- 주문자 정보 영역 -->
+            <div class="order-content-extra">   
+                <div class="common-inner">
+                    <div class="orderer-info-area">
+                        <p class="title">주문자 정보</p>
+                        <ul class="info-list"> 
+                            <li class="info-item">
+                                <p class="info-title">일회용 수저, 포크</p>
+                                <div class="option-group">
+                                    <div class="option-item">
+                                        <input type="radio" id="need" class='input-radio' name="disposables" checked>
+                                        <label for="need" class='input-radio-button need'>필요해요</label>
+                                    </div>
+                                    <div class="option-item">
+                                        <input type="radio" id="no-need" class='input-radio' name="disposables">
+                                        <label for="no-need" class='input-radio-button no-need'>필요 없어요</label>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="info-item">
+                                <p class="info-title">요청사항</p>
+                                <input type="text" placeholder="(선택) 요청사항을 입력해 주세요." class='input-text'>
+                            </li>
+                            <li class="info-item">
+                                <p class="info-title">주문자 연락처<span class="fw700 color-point">(필수)</span></p>
+                                <input type="text" placeholder="연락처를 입력해 주세요." class='input-text' required>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 지도 영역 -->
+                    <div class="place-map-area">
+                        <div class="title">주문 매장 위치</div>
+                        <div class="map-area">
+                            <div class="place-address-box">
+                                <p class="place-name">샐러드 제로베이스점</p>
+                                <p class="place-address">서울시 강남구 역삼동 123-4</p>
+                                <p class="place-address-detail">역삼역 8번 출구 나와서 직진 410m</p>
+                            </div>
+                            <img src="https://via.placeholder.com/400x170?text=map image" alt="" class='img-map'>
+                        </div>
+                    </div>
+                    <!-- // 지도 영역 -->
+
+                    <div class="agreement-area">
+
+                    </div>
+                </div>
+            </div>
+            <!-- // 주문자 정보 영역 -->
+        </div>
     </div>
 </body>
 
