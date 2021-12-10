@@ -15,12 +15,13 @@
         background-color: $booking-color-bg3;
         color: $booking-color-text106;
 
-        &:enabled {
+        &.enabled {
             border-color:#00d780;
             background-color: #00d780;
             color: #fff;
         }
-
+        
+        &.disabled,
         &:disabled {
             color: $booking-color-border1;
         }
