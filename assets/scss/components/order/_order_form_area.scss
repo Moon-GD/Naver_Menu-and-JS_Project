@@ -16,9 +16,12 @@
             font-size: 20px;
             background-image: linear-gradient(264deg, #3accff, #2cec88);
             font-weight: 700;
+            z-index:1;
         }
 
+
         .btn-close {
+            z-index: 1;
             top: 0;
             right: 0;
             position: fixed;
@@ -29,5 +32,34 @@
                 width: 18px;
             }
         }
+    }
+
+    .btn-order-area {
+        margin-top: 20px;
+        @include common-inner;
+
+        .btn-order {
+            display: flex;
+            background-color: $green;
+            justify-content: center;
+            align-items: center;
+            margin: 2px $m-padding 0;
+            width: calc(100% - #{$m-padding} * 2);
+            border: 5px;
+            font-size: 16px;
+            font-weight: 700;
+            height: 50px;
+            color: #fff;
+
+
+            .ico-n-logo {
+                margin-right: 6px;
+            }
+        }
+    }
+
+    .go-to-top {
+        background: none;
+        padding: 26px 0;
     }
 }
