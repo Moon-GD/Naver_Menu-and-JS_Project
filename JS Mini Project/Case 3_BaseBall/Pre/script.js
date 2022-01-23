@@ -37,8 +37,8 @@
     }
 
     baseball.password = password
+    console.log(password)
   }
-
   const onPlayed = (number, hint) => {
     return `<em>${trial}차 시도</em>: ${number}, ${hint}`
   }
